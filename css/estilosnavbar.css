@@ -1,0 +1,295 @@
+.tituloMenu{
+  font-style: normal;
+  font-size: 300%;
+  margin: 0 10px 10px 50px;
+  animation-name: marca;
+  animation-duration: 2s;
+}
+@keyframes marca{
+  from{
+    margin-top: -100%;
+  }
+  to{
+    margin-top: 10px;
+  }
+}
+.menu{
+  margin-bottom: 10px;
+}
+.icono{
+  margin: 10px;
+  animation-name: facebook;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+@keyframes facebook{
+  from{
+    margin-top: -100%;
+  }
+  to{
+    margin-top: 10px;
+  }
+}
+.redes1{
+  margin: 10px;
+  animation-name: instagram;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+}
+@keyframes instagram{
+  from{
+    margin-top: -100%;
+  }
+  to{
+    margin-top: 10px;
+  }
+}
+.esquina{
+  margin: 10px 50px 10px 10px;
+  animation-name: twitter;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+}
+@keyframes twitter{
+  from{
+    margin-top: -100%;
+  }
+  to{
+    margin-top: 10px;
+  }
+}
+
+/*aca esta lo anterior*/
+.colorBoton{
+  background-color: pink
+}
+.fondo{
+  height: 622px;
+  width: 100%;
+  background-color: rgb(8, 8, 8);
+  position: relative;
+  z-index: 1;
+}
+.logococa{
+  height: 20%;
+  width: 30%;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  margin-left: 35%;
+  margin-top: 4%;
+  display: flex;
+}
+.barralat{
+  height: 622px;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}
+.letracola{
+  height: 912px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 4;
+  margin-top: -10%;
+}
+.botella{
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  z-index: 5;
+  left: 35%;
+  margin-top: 10%;
+  display: flex;
+}
+.botizquierda{
+  height: 622px;
+  width: 100%;
+  position: absolute;
+  z-index: 6;
+  justify-content: center;
+}
+.botderecha{
+  height: 622px;
+  width: 100%;
+  position: absolute;
+  z-index: 6;
+  justify-content: center;
+}
+.redondo{
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+.altura2{
+  height: 300px;
+  margin-top: 10px;
+}
+.center{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+#triangulo{
+  width: 0;
+height: 0;
+border-top: 50px solid transparent;
+border-right: 40px solid #391c51;
+border-bottom: 50px solid transparent;
+  margin-top: 90px;
+}
+#triangulo1{
+  width: 0;
+height: 0;
+border-top: 50px solid transparent;
+border-left: 40px solid #391c51;
+border-bottom: 50px solid transparent;
+  margin-top: 90px;
+}
+.circle{
+  height: 135px;
+  width: 135px;
+  background-color: #391c51;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+.circle2{
+  height: 135px;
+  width: 135px;
+  background-color: #391c51;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+#play{
+  width: 0;
+height: 0;
+border-top: 60px solid transparent;
+border-left: 100px solid white;
+border-bottom: 60px solid transparent;
+  margin-top: 90px;
+}
+.altura3{
+  height: 300px;
+}
+.square{
+  height: 35px;
+  width: 77%;
+  background-color: white;
+  margin-top: 8%;
+}
+.square2{
+  height: 35px;
+  width: 77%;
+  background-color: white;
+  margin-top: 2%;
+}
+.square3{
+  height: 35px;
+  width: 77%;
+  background-color: white;
+  margin-top: 2%;
+}
+.square4{
+  height: 40px;
+  width: 20%;
+  background-color: #f2ea64;
+  margin-top: 10%;
+}
+.circulo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #391c51;
+  margin-top: 3%;
+  margin-left: 75%;
+}
+.circulo1{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #391c51;
+  margin-top: 4%;
+  margin-left: 75%;
+}
+.circulo2{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #391c51;
+  margin-top: 4%;
+  margin-left: 75%;
+}
+.circulo3{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #391c51;
+  margin-top: 4%;
+  margin-left: 75%;
+}
+#h1{
+  display: block;
+  float: right;
+  font-size: 3vw;
+  font-weight: normal;
+  margin-top: -10.5%;
+  margin-right: 30%;
+}
+#h2{
+  display: block;
+  float: right;
+  font-size: 3vw;
+  font-weight: normal;
+  margin-top: -10.5%;
+  margin-right: 30%;
+}
+#h3{
+  display: block;
+  float: right;
+  font-size: 3vw;
+  font-weight: normal;
+  margin-top: -10.5%;
+  margin-right: 30%;
+}
+#h4{
+  display: block;
+  float: right;
+  font-size: 3vw;
+  font-weight: normal;
+  margin-top: -10.5%;
+  margin-right: 30%;
+}
+.altura4{
+  height: 100px;
+  margin-top: 10px;
+}
+.altura5{
+  height: 600px;
+  margin-top: 10px;
+}
+
+/*aca incorporamos mediaqueries*/
+@media screen and (max-width: 768px) and (min-width: 56px){
+  .barras{
+      height: 600px;
+  }
+  .entero{
+      height: 300px;
+  }
+  .mitad{
+      height: 150px;
+  }
+  .circle{
+      margin-top: 8px;
+  }
+  .redes{
+      padding: 20px;
+  }
+  #h1{
+      margin-top: -8%;
+      margin-left: 50%;
+      font-size: 4vw;
+  }
+}
